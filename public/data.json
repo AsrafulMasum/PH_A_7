@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "course_name": "Web Development Fundamentals",
+    "description": "Learn the basics of web development, including HTML, CSS, and JavaScript.",
+    "credit_hours": 3,
+    "price": 199.99,
+    "image_url": "https://i.ibb.co/dcrpHZn/web-dev-img.png"
+  },
+  {
+    "id": 2,
+    "course_name": "JavaScript Mastery",
+    "description": "Dive deep into JavaScript and become a proficient front-end developer.",
+    "credit_hours": 4,
+    "price": 249.99,
+    "image_url": "https://i.ibb.co/vz7VWnk/js.png"
+  },
+  {
+    "id": 3,
+    "course_name": "Python for Beginners",
+    "description": "Start your programming journey with Python, a beginner-friendly language.",
+    "credit_hours": 3,
+    "price": 179.99,
+    "image_url": "https://i.ibb.co/YcBknX7/python.png"
+  },
+  {
+    "id": 4,
+    "course_name": "Full-Stack Web Development Bootcamp",
+    "description": "Become a full-stack developer with this intensive bootcamp covering front-end and back-end technologies.",
+    "credit_hours": 12,
+    "price": 799.99,
+    "image_url": "https://i.ibb.co/px2fVfH/bootcamp.png"
+  },
+  {
+    "id": 5,
+    "course_name": "Mobile App Development with React Native",
+    "description": "Build cross-platform mobile apps using React Native framework.",
+    "credit_hours": 5,
+    "price": 299.99,
+    "image_url": "https://i.ibb.co/HNTpvWM/native.png"
+  },
+  {
+    "id": 6,
+    "course_name": "Data Science and Machine Learning",
+    "description": "Unlock the power of data with this comprehensive course on data science and machine learning.",
+    "credit_hours": 6,
+    "price": 349.99,
+    "image_url": "https://i.ibb.co/WKbj9m4/learning.png"
+  },
+  {
+    "id": 7,
+    "course_name": "Java Programming for Beginners",
+    "description": "Learn the fundamentals of Java programming language for software development.",
+    "credit_hours": 4,
+    "price": 249.99,
+    "image_url": "https://i.ibb.co/KbySC02/java.png"
+  },
+  {
+    "id": 8,
+    "course_name": "Game Development with Unity",
+    "description": "Create your own games using the Unity game development engine.",
+    "credit_hours": 6,
+    "price": 399.99,
+    "image_url": "https://i.ibb.co/s3h2SYS/game.png"
+  },
+  {
+    "id": 9,
+    "course_name": "Cybersecurity Essentials",
+    "description": "Gain essential cybersecurity skills to protect digital assets and data.",
+    "credit_hours": 5,
+    "price": 299.99,
+    "image_url": "https://i.ibb.co/V9kXwVN/cyber.png"
+  },
+  {
+    "id": 10,
+    "course_name": "DevOps and Continuous Integration",
+    "description": "Learn DevOps practices and continuous integration tools for efficient software development.",
+    "credit_hours": 4,
+    "price": 299.99,
+    "image_url": "https://i.ibb.co/VHt9tsg/devOps.png"
+  },
+  {
+    "id": 11,
+    "course_name": "Cloud Computing with AWS",
+    "description": "Master cloud computing using Amazon Web Services (AWS) for scalable applications.",
+    "credit_hours": 5,
+    "price": 349.99,
+    "image_url": "https://i.ibb.co/T2XdBZZ/aws.png"
+  },
+  {
+    "id": 12,
+    "course_name": "Front-End Web Design with HTML and CSS",
+    "description": "Design stunning user interfaces with HTML and CSS for web development.",
+    "credit_hours": 3,
+    "price": 199.99,
+    "image_url": "https://i.ibb.co/Jn4zN3m/front-end.png"
+  }
+]
