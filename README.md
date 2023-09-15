@@ -1,8 +1,8 @@
 # 3 main features of my project are :
 
-  => Users can add or enroll courses.
-  => One course can't be enrolled more than one time.
-  => Users has maximum 20 credits. So he/she can't exceed more than 20 credits.
+  * Users can add or enroll courses.
+  * One course can't be enrolled more than one time.
+  * Users has maximum 20 credits. So he/she can't exceed more than 20 credits.
 
 
 
