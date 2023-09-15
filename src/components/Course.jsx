@@ -1,4 +1,5 @@
-
+/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types'
 
 const Course = ({course, handleCart}) => {
 
@@ -56,5 +57,9 @@ const Course = ({course, handleCart}) => {
     </div>
   );
 };
+
+Course.propTypes = {
+  course : PropTypes.object.isRequired
+}
 
 export default Course;

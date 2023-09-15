@@ -18,10 +18,39 @@ const Courses = () => {
   } , [])
 
   const [cart, setCart] = useState([])
+  const [creditHr, setCreditHr] = useState(0)
+  const [priceUSD, setPriceUSD] = useState(0)
 
   const handleCart = (course) => {
-    const newCart = [...cart, course]
-    setCart(newCart)
+    let credit = course.credit_hours
+    let price = course.price
+    {
+      cart.forEach(item => {
+        credit += item.credit_hours
+        price += item.price
+      })
+    }
+
+
+    const isExist = cart.find(item => item.id === course.id)
+  
+
+    if(isExist){
+      return alert('This course is already exist.')
+    }
+    else{
+      if(credit>20){
+        return alert('You reached maximum credit hours.')
+      }
+      else{
+        setPriceUSD(price)
+        setCreditHr(credit);
+        const newCart = [...cart, course]
+        setCart(newCart)
+      }
+      
+    }
+    
   }
 
   return (
@@ -34,7 +63,7 @@ const Courses = () => {
       </div>
 
       <div className="lg:w-1/4">
-        <Cart cart={cart}></Cart>
+        <Cart cart={cart} price={priceUSD} credit={creditHr}></Cart>
       </div>
     </div>
   );
