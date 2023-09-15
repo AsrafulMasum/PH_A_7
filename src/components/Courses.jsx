@@ -1,3 +1,8 @@
+
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 import { useEffect } from "react";
 import { useState } from "react";
 import Course from "./Course";
@@ -31,16 +36,15 @@ const Courses = () => {
       })
     }
 
-
     const isExist = cart.find(item => item.id === course.id)
   
 
     if(isExist){
-      return alert('This course is already exist.')
+      return toast('This course is already enrolled.')
     }
     else{
       if(credit>20){
-        return alert('You reached maximum credit hours.')
+        return toast('You have reached maximum credit hours.')
       }
       else{
         setPriceUSD(price)

@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import PropTypes from 'prop-types'
 
+
 const Course = ({course, handleCart}) => {
 
   const {course_name, description, credit_hours, price, image_url} = course
