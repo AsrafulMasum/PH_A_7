@@ -1,6 +1,7 @@
 
 
-const Cart = () => {
+const Cart = ({cart}) => {
+  console.log(cart);
   return (
     <div>
       <div className="card bg-base-100">

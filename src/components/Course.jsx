@@ -1,6 +1,6 @@
 
 
-const Course = ({course}) => {
+const Course = ({course, handleCart}) => {
 
   const {course_name, description, credit_hours, price, image_url} = course
 
@@ -46,7 +46,7 @@ const Course = ({course}) => {
           </div>
 
           <div className="flex w-full items-center justify-center">
-            <button className="bg-[#2F80ED] w-full py-2 rounded-xl text-white">Select</button>
+            <button onClick={() => handleCart(course)} className="bg-[#2F80ED] w-full py-2 rounded-xl text-white">Select</button>
           </div>
 
         </div>

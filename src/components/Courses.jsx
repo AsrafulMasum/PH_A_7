@@ -17,17 +17,24 @@ const Courses = () => {
     loadData()
   } , [])
 
+  const [cart, setCart] = useState([])
+
+  const handleCart = (course) => {
+    const newCart = [...cart, course]
+    setCart(newCart)
+  }
+
   return (
     <div className="mx-4 flex flex-col-reverse lg:flex-row justify-center gap-4 pt-8">
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:w-3/4">
         {
-          courses.map((course, index) => <Course key={index} course={course}></Course>)
+          courses.map((course, index) => <Course key={index} course={course} handleCart={handleCart}></Course>)
         }
       </div>
 
       <div className="lg:w-1/4">
-        <Cart></Cart>
+        <Cart cart={cart}></Cart>
       </div>
     </div>
   );
