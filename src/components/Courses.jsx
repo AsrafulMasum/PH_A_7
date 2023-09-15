@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Course from "./Course";
+import Cart from "./Cart";
 
 
 const Courses = () => {
@@ -26,12 +27,7 @@ const Courses = () => {
       </div>
 
       <div className="lg:w-1/4">
-        <div className="card bg-base-100">
-          <div className="card-body items-center text-center">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-          </div>
-        </div>
+        <Cart></Cart>
       </div>
     </div>
   );
